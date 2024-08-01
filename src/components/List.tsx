@@ -17,6 +17,7 @@ interface ListProps {
 
 export default function List({ children }: ListProps) {
     return(
+        // <ul className="divide-y divide-slate-300 border border-slate-300 rounded-lg">
         <ul className="divide-y divide-slate-100">
             {children}
         </ul>

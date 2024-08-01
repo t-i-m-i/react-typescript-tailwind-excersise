@@ -12,6 +12,8 @@
 
   /* color: #fff; */
   /* background-color: #213547; */
+
+  background-color: #f7f7f7;
 }
 
 body {
@@ -26,5 +28,6 @@ body {
 }
 
 .dev {
-  color: tomato;
+  /* color: tomato; */
+  border: 1px solid tomato;
 }

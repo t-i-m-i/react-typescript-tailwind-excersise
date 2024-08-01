@@ -56,10 +56,10 @@ function App() {
   
   return (
     <>
-      <div className="container mx-auto">
-        <h1 className="text-3xl text-center my-4">Movies</h1>
+      <div className="max-w-3xl mx-auto px-2">
+        <h1 className="text-3xl mt-16 mb-4 pl-6">Movies</h1>
 
-        <div className="">
+        <div className="bg-white rounded-xl ring-1 ring-slate-900/5 divide-y divide-slate-100 shadow-xl">
           <Nav>
             <NavItem href="/new" isActive>New Releases</NavItem>
             <NavItem href="/top">Top Rated</NavItem>
